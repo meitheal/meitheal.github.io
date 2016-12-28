@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidenav to 120px */
+.w3-sidenav {width: 120px;background: #808080;}
+/* Add a left margin to the "page content" that matches the width of the sidenav (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-orange">
+
+<!-- Icon Bar (Sidenav - hidden on small screens) -->
+<nav class="w3-sidenav w3-center w3-small w3-hide-small">
+  <!-- Avatar image in top left corner -->
+  <img src="Media/LH_Avatar.jpg" style="width:100%">
+  <a class="w3-padding-large w3-orange" href="#">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a class="w3-padding-large w3-hover-orange" href="#about">
+    <i class="fa fa-commenting w3-xxlarge"></i>
+    <p>ABOUT US</p>
+  </a>
+  <a class="w3-padding-large w3-hover-orange" href="#photos">
+    <i class="fa fa-photo w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a class="w3-padding-large w3-hover-orange" href="#contact">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT US</p>
+  </a>
+    <a class="w3-padding-large w3-hover-orange" href="https://docs.google.com/forms/d/e/1FAIpQLSeeNNSbOvHEF0-4jJQ7DlvOUwN-eJZ-4kLVusLoQpFmRCCd4Q/viewform">
+    <i class="fa fa-user-plus w3-xxlarge"></i>
+    <p>APPLY TO STAFF</p>
+  </a>
+    </a>
+    <a class="w3-padding-large w3-hover-orange" href="https://goo.gl/bNkY1G">
+    <i class="fa fa-calendar-check-o w3-xxlarge"></i>
+    <p>WEEKEND ROTA</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <ul class="w3-navbar w3-orange w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <li class="w3-left" style="width:16.6% !important"><a href="#">HOME</a></li>
+    <li class="w3-left" style="width:16.6% !important"><a href="#about">ABOUT US</a></li>
+    <li class="w3-left" style="width:16.6% !important"><a href="#photos">PHOTOS</a></li>
+    <li class="w3-left" style="width:16.6% !important"><a href="#contact">CONTACT US</a></li>
+    <li class="w3-left" style="width:16.6% !important"><a href="#contact">APPLY TO STAFF</a></li>
+    <li class="w3-left" style="width:16.6% !important"><a href="#contact">WEEKEND ROTA</a></li>
+  </ul>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-orange" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Larch Hill</span> Meitheal</h1>
+    <p>Volunteering since 1938</p>
+    <img src="Media/LH_Banner.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Who We Are</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Have you experienced Larch Hill as a camper? Are you looking to give something back and have great fun at the same time. Then joining the Volunteer Campsite team known as the ‘Meitheal’, at Larch Hill might be just the challenge you are looking for.
+    <p>Here at Larch Hill the ‘Meitheal’ manage the centre on weekends throughout the year. It is a great opportunity to learn new skills including instructing activities such as archery, rock climbing and high-ropes. You will have the opportunity to learn other skills such as construction, tree planting and maintenance.</p>
+    <p>The ‘Meitheal’ are there to assist our visitors to the Scout & Guide Centre and to contribute to the continued development of the centre. There is huge potential for personal development in many different areas as there is always something for everyone. It is a great opportunity to make new friends, have fun and work as part of a dynamic team.</p>
+    <p>If this appeals to you then submit an application. It is the volunteer staff that are at the core of the success of our leading Scout Centre, why not get involved.</p>
+   
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">Our Team</h3>  
+
+    <table style="width:100%">
+        <col style="width:50%" />
+  <tr>
+    <th>
+        <img src="Media/test_1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+        <p><span class="w3-large w3-margin-right">Des Ryan</span> No. 1</p>
+        <p>I'm grumpy</p>
+    </th> 
+    <th>
+        <img src="Media/test_1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+        <p><span class="w3-large w3-margin-right">Eoin Campbell</span> Camp-chief</p>
+        <p>I too am grumpy</p>
+    </th> 
+  </tr>
+  <tr>
+    <th>
+        <img src="Media/test_1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+        <p><span class="w3-large w3-margin-right">Colin Sheehan</span> Assist. Campsite Mngr</p>
+        <p>I love my Landie</p>
+    </th> 
+    <th>
+        <img src="Media/test_1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+        <p><span class="w3-large w3-margin-right">Conor McKeon</span> Campsite Manager</p>
+        <p>Organisation is key</p>
+    </th> 
+  </tr>
+  <tr>
+    <th>
+        <img src="Media/test_1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+        <p><span class="w3-large w3-margin-right">Orla Mulligan</span> No. 1</p>
+        <p>I'm a gluten-freak</p>
+    </th> 
+    <th>
+        <img src="Media/test_1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+        <p><span class="w3-large w3-margin-right">Rebecca Sweeney</span> Summer Intern</p>
+        <p>I agree with Conor</p>
+    </th> 
+  </tr>
+ </table>   
+    
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Our Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="http://www.larchhill.org/wp-content/uploads/2013/04/homepage.jpg" style="width:100%">
+        <img src="http://www.larchhill.org/wp-content/uploads/2014/03/616150_421133604599980_494248182_o.jpg" style="width:100%">
+        <img src="http://www.larchhill.org/wp-content/uploads/2014/02/orienteeringmain1.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://i.ytimg.com/vi/uev9R_yAms4/maxresdefault.jpg" style="width:100%">
+        <img src="http://www.29thdublin.org/wp/wp-content/gallery/larch-hill-april-2008/123_1912.jpg" style="width:100%">
+        <img src="http://www.larchhill.org/wp-content/uploads/2014/02/IMAG0163.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Us</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+
+<p><iframe src="https://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;t=m&amp;msid=203497555766197867134.000457a4e8610462b206d&amp;source=embed&amp;ll=53.254251,-6.285853&amp;spn=0.019641,0.038624&amp;output=embed" style="width:100%"height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe><br/>
+<small>View <a style="color: #0000ff; text-align: left;" href="https://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;t=m&amp;msid=203497555766197867134.000457a4e8610462b206d&amp;source=embed&amp;ll=53.254251,-6.285853&amp;spn=0.019641,0.038624">Larch Hill</a> in a larger map</small></p>
+
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Tibradden, Dublin 16, Ireland, D16 P023</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +353 (0) 1 4931410</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: meitheal.recruitment@gmail.com</p>
+    </div><br>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+    <i class="fa fa-instagram w3-hover-text-purple"></i>
+    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>

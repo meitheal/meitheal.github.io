@@ -70,14 +70,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <h1 class="w3-jumbo"><span class="w3-hide-small">Larch Hill</span> Meitheal</h1>
     <p>Volunteering since 1938</p>
     <br>
-    <input id='password' type='password'/><a href="https://goo.gl/bNkY1G"><button type="button"
-onclick="javascript:return validatePass()">
-Log-In</button></a>
+<input id='password' type='password'/><button type="button" onclick="javascript:return validatePass()">Log-In</button>
 
 <script>
 function validatePass(){
     if(document.getElementById('password').value == 'c1938x'){
-        return true;
+    window.location="https://goo.gl/bNkY1G"
+        return true; 
     }else{
         alert('Incorrect Password. Please retry');
         return false;
